@@ -200,17 +200,17 @@ a {
   }
   .dogAlbum {
     margin: auto;
-    width: 90%;
+    width: 90%vw;
     aspect-ratio: 3/1;
     border-radius: 10px;
     border: 1px solid grey;
   }
   .dogpic {
-    width: 25%;
+    width: 25;vw;
     aspect-ratio: 1/1;
     object-fit: cover;
   }
   img {
-    max-width: 90%;
+    max-width: 90vw;
   }
 }
