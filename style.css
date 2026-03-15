@@ -202,8 +202,9 @@ a {
   }
   .dogAlbum {
     margin: auto;
-    width: 90%;
-    aspect-ratio: 1/1;
+    width: 85vw;
+    height: 85vw;
+
     border-radius: 10px;
     border: 1px solid grey;
     overflow-x: hidden;
