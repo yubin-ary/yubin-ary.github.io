@@ -133,7 +133,6 @@ a {
   margin: auto;
   width: 90%;
   aspect-ratio: 3/1;
-  min-width: 500px;
   border-radius: 10px;
   border: 1px solid grey;
 }
