@@ -201,8 +201,8 @@ a {
   }
   .dogAlbum {
     margin: auto;
-    width: 83vw;
-    height: 83vw;
+    width: 80%;
+    height: 80%;
 
     border-radius: 10px;
     border: 1px solid grey;
