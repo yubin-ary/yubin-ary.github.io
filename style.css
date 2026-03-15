@@ -201,8 +201,8 @@ a {
   }
   .dogAlbum {
     margin: auto;
-    width: 80%;
-    height: 80%;
+    width: 80vw;
+    height: 80vw;
 
     border-radius: 10px;
     border: 1px solid grey;
@@ -216,7 +216,7 @@ a {
 
   .imgcontainer {
     margin: auto;
-    width: 90%;
+    width: 80vw;
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
