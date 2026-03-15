@@ -208,7 +208,7 @@ a {
   }
   .dogAlbum {
     margin: auto;
-    width: calc(100% - 30px);
+    width: calc(100% - 20px);
     aspect-ratio: 1 / 1;
 
     border-radius: 10px;
