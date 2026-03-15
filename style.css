@@ -188,30 +188,32 @@ a {
     transform: rotate(360deg);
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .dogpicContainer {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
     gap: 10px;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     padding: 10px;
   }
   .dogAlbum {
     margin: auto;
-    width: 90vw;
-    aspect-ratio: 3/1;
+    width: 90%;
+    aspect-ratio: 1/1;
     border-radius: 10px;
     border: 1px solid grey;
+    overflow-x: hidden;
   }
   .dogpic {
-    width: 25vw;
+    width: 47%;
     aspect-ratio: 1/1;
     object-fit: cover;
   }
-  img {
-    max-width: 90vw;
-  }
+
   .imgcontainer {
     margin: auto;
     width: 90vw;
