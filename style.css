@@ -2,9 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  margin-right: 10px;
-  margin-left: 10px;
-  width: 100%;
+  margin: 0 5vw;
+
   padding: 30px;
   background-color: white;
   overflow: hidden;
