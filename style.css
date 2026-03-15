@@ -189,3 +189,28 @@ a {
     transform: rotate(360deg);
   }
 }
+@media only screen and (min-width: 480px) {
+  .dogpicContainer {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    padding: 10px;
+  }
+  .dogAlbum {
+    margin: auto;
+    width: 90%;
+    aspect-ratio: 3/1;
+    border-radius: 10px;
+    border: 1px solid grey;
+  }
+  .dogpic {
+    width: 25%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+  img {
+    max-width: 90%;
+  }
+}
