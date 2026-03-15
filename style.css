@@ -209,7 +209,7 @@ a {
     overflow-x: hidden;
   }
   .dogpic {
-    width: 40%;
+    width: calc(50% - 10px);
     aspect-ratio: 1/1;
     object-fit: cover;
   }
@@ -218,7 +218,10 @@ a {
     margin: auto;
     width: 80vw;
     display: flex;
-    justify-content: space-evenly;
+
+    justify-content: center;
+    gap: 20px;
+
     justify-items: center;
     align-items: center;
   }
