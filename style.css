@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 100%;
+  padding: 30px;
+  background-color: white;
+  overflow: hidden;
+  font-family: "pretendard";
+}
+
+header {
+  position: fixed;
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 188, 106);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  line-height: 30px;
+  text-wrap: wrap;
+}
+
+.navbar {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+  display: flex;
+  width: 100%;
+  height: 50px;
+
+  justify-content: space-around;
+  background-color: rgb(255, 188, 106);
+}
+.menuItems {
+  display: flex;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  width: 25%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  text-align: center;
+  font-size: 40px;
+
+  animation: rotate 3s linear infinite;
+  transform-origin: center;
+}
+.welcome {
+  justify-content: center;
+  display: flex;
+  height: 80px;
+  margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.comment {
+  text-align: center;
+  height: 100px;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.scrollbox {
+  display: block;
+  margin-top: 80px;
+  height: 90vh;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}
+.scrollbox::-webkit-scrollbar {
+  display: none;
+}
+.menuItems:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.active {
+  background-color: white;
+}
+.imgcontainer {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: center;
+}
+.contact_icon {
+  display: flex;
+  transform: translateY(5px);
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+}
+.contact_icon:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+.contactLink {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.linkContainer {
+  display: flex;
+  margin-top: 15vh;
+  height: 100px;
+  justify-content: center;
+}
+.dogAlbum {
+  margin: auto;
+  width: 90%;
+  aspect-ratio: 3/1;
+  min-width: 500px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.dogpicContainer {
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+.hide {
+  display: none;
+}
+.dogpic {
+  width: 35%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.dogmenu {
+  background-color: blanchedalmond;
+  display: flex;
+  height: 30px;
+  justify-content: space-evenly;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.dogmenu div {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#meongBtn {
+  border-top-left-radius: 10px;
+}
+#ddoongBtn {
+  border-top-right-radius: 10px;
+}
+.dogmenu div:hover {
+  display: flex;
+  background-color: white;
+}
+.clicked {
+  background-color: white;
+}
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
