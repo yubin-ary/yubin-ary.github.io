@@ -141,12 +141,12 @@ a {
 }
 .dogpicContainer {
   display: flex;
-  margin: auto;
+  height: 90%;
+  margin: auto 0;
   gap: 10px;
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-behavior: smooth;
-  margin-bottom: 10px;
 }
 .hide {
   display: none;
@@ -160,11 +160,10 @@ a {
 .dogmenu {
   background-color: blanchedalmond;
   display: flex;
-  height: 30px;
+  height: 10%;
   justify-content: space-evenly;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  margin-bottom: 10px;
 }
 .dogmenu div {
   display: flex;
@@ -214,7 +213,6 @@ a {
     padding: 10px;
   }
   .dogAlbum {
-    margin: auto;
     width: calc(100% - 20px);
     aspect-ratio: 1 / 1;
 
