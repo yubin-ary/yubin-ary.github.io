@@ -135,6 +135,7 @@ a {
 }
 .dogAlbum {
   width: 90%;
+  margin: auto;
   aspect-ratio: 3/1;
   border-radius: 10px;
   border: 1px solid grey;
