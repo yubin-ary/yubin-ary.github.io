@@ -223,7 +223,7 @@ a {
   }
   .dogpic {
     width: 95%;
-
+    margin: auto 0;
     aspect-ratio: 1/1;
     object-fit: cover;
   }
