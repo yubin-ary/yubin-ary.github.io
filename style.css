@@ -204,7 +204,7 @@ a {
   }
   .dogpicContainer {
     display: flex;
-    justify-content: center;
+
     flex-wrap: nowrap;
 
     gap: 10px;
