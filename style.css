@@ -134,7 +134,6 @@ a {
   justify-content: center;
 }
 .dogAlbum {
-  margin: auto;
   width: 90%;
   aspect-ratio: 3/1;
   border-radius: 10px;
@@ -142,11 +141,12 @@ a {
 }
 .dogpicContainer {
   display: flex;
+  margin: auto;
   gap: 10px;
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-behavior: smooth;
-  padding: 10px;
+  margin-bottom: 10px;
 }
 .hide {
   display: none;
@@ -164,6 +164,7 @@ a {
   justify-content: space-evenly;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  margin-bottom: 10px;
 }
 .dogmenu div {
   display: flex;
@@ -222,8 +223,7 @@ a {
     overflow-y: hidden;
   }
   .dogpic {
-    width: 95%;
-    margin: auto 0;
+    width: 90%;
     aspect-ratio: 1/1;
     object-fit: cover;
   }
